@@ -1,0 +1,16 @@
+.main.container{
+    margin-top : 70px;
+    text-align : center;
+}
+
+h1{
+    margin-top : 70px;
+}
+
+body{
+    margin-left : 20px;
+}
+
+input{
+    margin : 10px 0;
+}
