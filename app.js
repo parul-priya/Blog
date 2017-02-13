@@ -72,6 +72,7 @@ app.get("/blogs/:id/edit", function(req, res) {
     })
 })
 
+//UPDATE ROUTE
 app.put("/blogs/:id",function(req,res){
     // Blog.findByIdAndUpdate(id, newData, callback function)
     Blog.findByIdAndUpdate(req.params.id, req.body.blog, function(err, updatedBlog){
